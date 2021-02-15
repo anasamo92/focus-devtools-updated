@@ -16,6 +16,10 @@
             }
         }
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anasamo92/focus-devtools-updated.git"
+    },
     "keywords": [
         "react",
         "redux",
