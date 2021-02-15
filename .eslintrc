@@ -1,0 +1,6 @@
+{
+    "extends": "updated",
+    "rules": {
+        "require-jsdoc": "off"
+    }
+}
