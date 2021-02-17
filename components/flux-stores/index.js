@@ -53,4 +53,4 @@ FluxStoresList.defaultProps = {
 };
 
 exports.default = FluxStoresList;
-module.exports = exports.default;
+module.exports = exports['default'];

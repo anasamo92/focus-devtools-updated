@@ -46,4 +46,4 @@ var Switch = function Switch(_ref2) {
 Switcher.displayName = 'Switcher';
 
 exports.default = Switcher;
-module.exports = exports.default;
+module.exports = exports['default'];

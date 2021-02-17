@@ -25,4 +25,4 @@ var loggerMiddleware = (0, _reduxLogger2.default)();
 var store = (0, _redux.createStore)(_reducers2.default, (0, _redux.applyMiddleware)(_reduxThunk2.default));
 
 exports.default = store;
-module.exports = exports.default;
+module.exports = exports['default'];

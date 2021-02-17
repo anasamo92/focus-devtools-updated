@@ -87,4 +87,4 @@ FocusDevTools.displayName = 'FocusDevTools';
 FocusDevTools.logger = _dispatchLogger2.default;
 
 exports.default = FocusDevTools;
-module.exports = exports.default;
+module.exports = exports['default'];
