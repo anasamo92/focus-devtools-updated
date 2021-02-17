@@ -114,4 +114,4 @@ FluxStore.defaultProps = {
 FluxStore.displayName = 'FluxStore';
 
 exports.default = FluxStore;
-module.exports = exports['default'];
+module.exports = exports.default;

@@ -201,4 +201,4 @@ var StateConnectedFocusDevTools = (0, _reactRedux.connect)(function (data) {
 })(FocusDevTools);
 
 exports.default = StateConnectedFocusDevTools;
-module.exports = exports['default'];
+module.exports = exports.default;

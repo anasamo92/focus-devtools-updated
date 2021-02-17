@@ -29,4 +29,4 @@ DevPanel.propTypes = {
     user: _react.PropTypes.string.isRequired
 };
 exports.default = DevPanel;
-module.exports = exports['default'];
+module.exports = exports.default;

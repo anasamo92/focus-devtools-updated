@@ -29,4 +29,4 @@ function Code(props) {
 
 Code.displayName = 'Code';
 exports.default = Code;
-module.exports = exports['default'];
+module.exports = exports.default;

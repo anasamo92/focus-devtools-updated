@@ -17,4 +17,4 @@ var devToolsReducer = (0, _redux.combineReducers)({
 });
 
 exports.default = devToolsReducer;
-module.exports = exports['default'];
+module.exports = exports.default;

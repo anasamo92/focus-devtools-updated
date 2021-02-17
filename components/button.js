@@ -37,4 +37,4 @@ Button.propTypes = {
 };
 
 exports.default = Button;
-module.exports = exports['default'];
+module.exports = exports.default;

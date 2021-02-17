@@ -60,4 +60,4 @@ var createStoreLogger = function createStoreLogger(dispatcher, getStores) {
 };
 
 exports.default = createStoreLogger;
-module.exports = exports['default'];
+module.exports = exports.default;

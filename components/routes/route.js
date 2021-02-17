@@ -61,4 +61,4 @@ RouteDX.propTypes = {
 };
 
 exports.default = RouteDX;
-module.exports = exports['default'];
+module.exports = exports.default;
