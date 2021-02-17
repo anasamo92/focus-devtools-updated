@@ -4,10 +4,6 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _propTypes = require('prop-types');
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -58,11 +54,11 @@ RouteDX.defaultProps = {
     iconName: 'touch_app'
 };
 RouteDX.propTypes = {
-    name: _propTypes2.default.string.isRequired,
-    onClick: _propTypes2.default.func.isRequired,
-    className: _propTypes2.default.string,
-    iconName: _propTypes2.default.string
+    name: _react.PropTypes.string.isRequired,
+    onClick: _react.PropTypes.func.isRequired,
+    className: _react.PropTypes.string,
+    iconName: _react.PropTypes.string
 };
 
 exports.default = RouteDX;
-module.exports = exports.default;
+module.exports = exports['default'];

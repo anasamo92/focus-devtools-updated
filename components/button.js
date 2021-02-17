@@ -4,10 +4,6 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _propTypes = require('prop-types');
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -34,11 +30,11 @@ Button.defaultProps = {
 };
 
 Button.propTypes = {
-    onClick: _propTypes2.default.func.isRequired,
-    iconName: _propTypes2.default.string,
-    type: _propTypes2.default.string,
-    isColored: _propTypes2.default.bool
+    onClick: _react.PropTypes.func.isRequired,
+    iconName: _react.PropTypes.string,
+    type: _react.PropTypes.string,
+    isColored: _react.PropTypes.bool
 };
 
 exports.default = Button;
-module.exports = exports.default;
+module.exports = exports['default'];

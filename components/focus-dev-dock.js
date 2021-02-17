@@ -8,10 +8,6 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _class, _temp;
 
-var _propTypes = require('prop-types');
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -117,10 +113,10 @@ var FocusDevDock = (_temp = _class = function (_Component) {
 
     return FocusDevDock;
 }(_react.Component), _class.propTypes = {
-    defaultIsVisible: _propTypes2.default.bool.isRequired,
-    defaultSize: _propTypes2.default.number.isRequired,
-    toggleVisibilityKey: _propTypes2.default.string.isRequired,
-    fluid: _propTypes2.default.bool
+    defaultIsVisible: _react.PropTypes.bool.isRequired,
+    defaultSize: _react.PropTypes.number.isRequired,
+    toggleVisibilityKey: _react.PropTypes.string.isRequired,
+    fluid: _react.PropTypes.bool
 }, _class.defaultProps = {
     defaultIsVisible: true,
     defaultPosition: 'right',
@@ -134,4 +130,4 @@ var StateConnectedFocusDevDock = (0, _reactRedux.connect)(function (data) {
 })(FocusDevDock);
 
 exports.default = StateConnectedFocusDevDock;
-module.exports = exports.default;
+module.exports = exports['default'];

@@ -4,10 +4,6 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _propTypes = require('prop-types');
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -72,14 +68,14 @@ var FocusDevTools = function FocusDevTools(props) {
 };
 
 FocusDevTools.propTypes = {
-    getStores: _propTypes2.default.func.isRequired,
-    routes: _propTypes2.default.array.isRequired,
-    isPanel: _propTypes2.default.bool.isRequired,
-    toggleVisibilityKey: _propTypes2.default.string.isRequired,
-    project: _propTypes2.default.string.isRequired,
-    user: _propTypes2.default.string.isRequired,
-    paddingTop: _propTypes2.default.string,
-    isDebugDevTools: _propTypes2.default.bool
+    getStores: _react.PropTypes.func.isRequired,
+    routes: _react.PropTypes.array.isRequired,
+    isPanel: _react.PropTypes.bool.isRequired,
+    toggleVisibilityKey: _react.PropTypes.string.isRequired,
+    project: _react.PropTypes.string.isRequired,
+    user: _react.PropTypes.string.isRequired,
+    paddingTop: _react.PropTypes.string,
+    isDebugDevTools: _react.PropTypes.bool
 };
 
 FocusDevTools.defaultProps = {
@@ -91,4 +87,4 @@ FocusDevTools.displayName = 'FocusDevTools';
 FocusDevTools.logger = _dispatchLogger2.default;
 
 exports.default = FocusDevTools;
-module.exports = exports.default;
+module.exports = exports['default'];

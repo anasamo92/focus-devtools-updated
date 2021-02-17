@@ -4,10 +4,6 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _propTypes = require('prop-types');
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -49,12 +45,12 @@ var FluxStoresList = function FluxStoresList(_ref) {
 
 FluxStoresList.displayName = 'FluxStoresList';
 FluxStoresList.propTypes = {
-    title: _propTypes2.default.string.isRequired,
-    stores: _propTypes2.default.object.isRequired
+    title: _react.PropTypes.string.isRequired,
+    stores: _react.PropTypes.object.isRequired
 };
 FluxStoresList.defaultProps = {
     title: 'Stores'
 };
 
 exports.default = FluxStoresList;
-module.exports = exports.default;
+module.exports = exports['default'];

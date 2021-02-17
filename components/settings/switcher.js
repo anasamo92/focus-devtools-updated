@@ -4,10 +4,6 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _propTypes = require('prop-types');
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -50,4 +46,4 @@ var Switch = function Switch(_ref2) {
 Switcher.displayName = 'Switcher';
 
 exports.default = Switcher;
-module.exports = exports.default;
+module.exports = exports['default'];

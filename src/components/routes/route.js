@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import React from 'react';
+import React, { PropTypes } from 'react';
 import Icon from '../icon';
 const RouteDX = ({ name, onClick, className, iconName }) => {
     return (

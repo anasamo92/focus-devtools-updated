@@ -4,10 +4,6 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _propTypes = require('prop-types');
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -33,4 +29,4 @@ function Code(props) {
 
 Code.displayName = 'Code';
 exports.default = Code;
-module.exports = exports.default;
+module.exports = exports['default'];

@@ -6,10 +6,6 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _propTypes = require('prop-types');
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -107,9 +103,9 @@ var FluxStore = function (_Component) {
 }(_react.Component);
 
 FluxStore.propTypes = {
-    getValue: _propTypes2.default.func.isRequired,
-    name: _propTypes2.default.string.isRequired,
-    isValueVisible: _propTypes2.default.bool
+    getValue: _react.PropTypes.func.isRequired,
+    name: _react.PropTypes.string.isRequired,
+    isValueVisible: _react.PropTypes.bool
 };
 
 FluxStore.defaultProps = {
@@ -118,4 +114,4 @@ FluxStore.defaultProps = {
 FluxStore.displayName = 'FluxStore';
 
 exports.default = FluxStore;
-module.exports = exports.default;
+module.exports = exports['default'];

@@ -19,4 +19,4 @@ var Icon = function Icon(_ref) {
   );
 }; // material icon class.
 exports.default = Icon;
-module.exports = exports.default;
+module.exports = exports['default'];

@@ -4,10 +4,6 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _propTypes = require('prop-types');
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -60,11 +56,11 @@ RoutesDX.defaultProps = {
     title: 'Routes'
 };
 RoutesDX.propTypes = {
-    data: _propTypes2.default.array.isRequired,
-    process: _propTypes2.default.func.isRequired,
-    className: _propTypes2.default.string,
-    title: _propTypes2.default.string
+    data: _react.PropTypes.array.isRequired,
+    process: _react.PropTypes.func.isRequired,
+    className: _react.PropTypes.string,
+    title: _react.PropTypes.string
 };
 
 exports.default = RoutesDX;
-module.exports = exports.default;
+module.exports = exports['default'];

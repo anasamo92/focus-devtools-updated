@@ -6,10 +6,6 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _propTypes = require('prop-types');
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -80,14 +76,14 @@ var DevTool = function DevTool(_ref) {
 };
 DevTool.displayName = 'DevTool';
 DevTool.PropTypes = {
-    grade: _propTypes2.default.number,
-    onSetGrade: _propTypes2.default.func.isRequired,
-    onSendGrade: _propTypes2.default.func.isRequired,
-    styleProps: _propTypes2.default.object,
-    mode: _propTypes2.default.string.isRequired,
-    getStores: _propTypes2.default.func.isRequired,
-    routes: _propTypes2.default.array.isRequired,
-    processStores: _propTypes2.default.func.isRequired
+    grade: _react.PropTypes.number,
+    onSetGrade: _react.PropTypes.func.isRequired,
+    onSendGrade: _react.PropTypes.func.isRequired,
+    styleProps: _react.PropTypes.object,
+    mode: _react.PropTypes.string.isRequired,
+    getStores: _react.PropTypes.func.isRequired,
+    routes: _react.PropTypes.array.isRequired,
+    processStores: _react.PropTypes.func.isRequired
 };
 DevTool.defaultProps = {
     processStores: _processStores
@@ -189,14 +185,14 @@ FocusDevTools.defaultProps = {
 };
 
 FocusDevTools.propTypes = {
-    grade: _propTypes2.default.number,
-    sendGrade: _propTypes2.default.func.isRequired,
-    isQuestionVisible: _propTypes2.default.bool.isRequired,
-    isRoutesVisible: _propTypes2.default.bool.isRequired,
-    isFluxStoresVisible: _propTypes2.default.bool.isRequired,
-    isSwitchMode: _propTypes2.default.bool.isRequired,
-    routes: _propTypes2.default.array.isRequired,
-    getStores: _propTypes2.default.func.isRequired
+    grade: _react.PropTypes.number,
+    sendGrade: _react.PropTypes.func.isRequired,
+    isQuestionVisible: _react.PropTypes.bool.isRequired,
+    isRoutesVisible: _react.PropTypes.bool.isRequired,
+    isFluxStoresVisible: _react.PropTypes.bool.isRequired,
+    isSwitchMode: _react.PropTypes.bool.isRequired,
+    routes: _react.PropTypes.array.isRequired,
+    getStores: _react.PropTypes.func.isRequired
 };
 FocusDevTools.displayName = 'FocusDevTools';
 
@@ -205,4 +201,4 @@ var StateConnectedFocusDevTools = (0, _reactRedux.connect)(function (data) {
 })(FocusDevTools);
 
 exports.default = StateConnectedFocusDevTools;
-module.exports = exports.default;
+module.exports = exports['default'];
