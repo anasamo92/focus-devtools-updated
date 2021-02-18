@@ -32,11 +32,6 @@
             "updated"
         ]
     },
-    "peerDependencies": {
-        "prop-types": "^15.6.1",
-        "react": "^16.2.0",
-        "react-dom": "^16.2.0"
-    },
     "devDependencies": {
         "babel-cli": "6.26.0",
         "babel-preset-updated": "^1.0.4",
