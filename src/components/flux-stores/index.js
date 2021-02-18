@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import React from 'react';
+import React, { PropTypes } from 'react';
 import FluxStore from './flux-store';
 
 const FluxStoresList = ({ stores, title, contentWidth, titlePadding }) => {
